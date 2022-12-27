@@ -1,0 +1,88 @@
+html {
+    font-family: 'Monoton';
+    background: linear-gradient(
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    );
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.floor-list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.basement, .first-floor, .second-floor, .third-floor, .attic {
+    word-wrap: normal;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: black;
+    border-width: 10px;
+    border-style: dashed;
+    padding: 4px;
+    font-family: 'Lacquer';
+    margin: 2px;
+}
+
+h4 {
+    font-family: 'Rubik Puddles';
+    align-self: center;
+    margin-bottom: 0;
+    margin-top: 4px;
+    font-size: x-large;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+h2 {
+    margin-bottom: 1px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+button {
+    border-radius: 5px;
+    border-color:orange;
+    background-color: blue;
+    font-style: italic;
+    font-family: 'Lacquer';
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
