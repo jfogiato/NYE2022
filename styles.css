@@ -63,7 +63,7 @@ main {
     flex-direction: column;
     border: orange;
     border-width: 10px;
-    border-style: double;
+    border-style: dashed;
     padding: 4px;
     font-family: 'Lacquer';
     margin: 2px; 
