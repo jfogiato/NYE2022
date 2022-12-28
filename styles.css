@@ -54,6 +54,21 @@ main {
     margin: 2px;
 }
 
+.bring {
+    word-wrap: normal;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: orange;
+    border-width: 10px;
+    border-style: double;
+    padding: 4px;
+    font-family: 'Lacquer';
+    margin: 2px; 
+}
+
 h4 {
     font-family: 'Rubik Puddles';
     align-self: center;
