@@ -100,3 +100,7 @@ img {
     max-width: 800px;
     max-height: 600px;
 }
+
+@media all and (max-width: 768px) {   
+        img {width: 100%;}
+}
